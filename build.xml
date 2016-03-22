@@ -10,7 +10,7 @@
 			<classes dir="web/WEB-INF/classes" />
 		</war>
 
-		<copy todir="C:/tomcat/webapps" flatten="true">
+		<copy todir="/opt/Tomcat/apache/webapps" flatten="true">
 			<resources>
 				<file file="dist/pstp.war" />
 			</resources>
